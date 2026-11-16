@@ -1,0 +1,65 @@
+<!doctype html>
+<html lang="pt-BR">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="theme-color" content="#211b29">
+  <title>Portfólio</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <a class="skip" href="#conteudo">Pular para o conteúdo</a>
+  <header class="hero" id="inicio">
+    <div class="portrait">
+      <img src="retrato.jpeg" alt="Meu retrato, de moletom cinza" width="1086" height="1448" fetchpriority="high">
+    </div>
+    <div class="wrap">
+      <nav class="nav" aria-label="Navegação principal">
+        <a class="brand" href="#inicio">Tarcianne Rocha</a>
+        <div class="nav-links">
+          <a href="#projetos">Projetos</a>
+          <a href="#sobre">Sobre</a>
+          <a href="#contato">Contato</a>
+        </div>
+      </nav>
+      <div class="intro">
+        <h1>Olá, eu sou<br>Tarcianne Rocha</h1>
+        <p>Desenvolvo sistemas, analiso bugs, gerencio projetos e crio protótipos.</p>
+        <a class="button" href="#projetos">Ver projetos <span aria-hidden="true">↓</span></a>
+      </div>
+    </div>
+  </header>
+  <main id="conteudo">
+    <section class="wrap section" id="projetos" aria-labelledby="titulo-projetos">
+      <h2 id="titulo-projetos">Projetos</h2>
+      <div class="projects">
+        <details class="project">
+          <summary>
+            <span class="cover cover-orbit" aria-hidden="true"></span>
+            <span class="project-label">Sistema de Caixa<span class="toggle" aria-hidden="true">+</span></span>
+          </summary>
+          <p>Criado com o intuito de facilitar o resgistro monetário do cliente. Versátil e simples de ser acessar.</p>
+        </details>
+        <details class="project">
+          <summary>
+            <span class="cover cover-fold" aria-hidden="true"></span>
+            <span class="project-label">Sistema de Etiqueta<span class="toggle" aria-hidden="true">+</span></span>
+          </summary>
+          <p>Criado co  o intuito de gerar etiquetas e registrar alimentos para facilitar e digitalizar um processo feito a mão.</p>
+        </details>
+      </div>
+    </section>
+    <div class="wrap lower">
+      <section id="sobre">
+        <h2>Sobre</h2>
+        <p>Criativa e proativa. Crio projetos de acordo com a tendência do momento. Gosto de explorar novos caminhos e estou sempre disposta a apresender e melhorar meu desempenho.</p>
+      </section>
+      <section id="contato">
+        <h2>Contato</h2>
+        <!-- Troque o endereço no href e no texto pelo seu e-mail. -->
+        <a class="contact" href="mailto:tarciannesrocha1@gmail.com">tarciannesrocha1@gmail.com <span aria-hidden="true">↗</span></a>
+      </section>
+    </div>
+  </main>
+</body>
+</html>
